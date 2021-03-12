@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# CodeStream ignored files
+/../../My LeetCode Solution\.idea/codestream.xml
+# Datasource local storage ignored files
+/../../../../:\Nam Four\My LeetCode Solution\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
