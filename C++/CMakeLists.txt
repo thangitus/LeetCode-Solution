@@ -8,3 +8,4 @@ add_executable(CoinChange-OptimizeSpace "Dynamic Programming/Coin_Change/CoinCha
 add_executable(Climbing_Stairs "Dynamic Programming/Climbing Stairs.cpp")
 add_executable(Check-If-a-String-Contains-All-Binary-Codes-of-Size "Bit Manipulation/Check If a String Contains All Binary Codes of Size K.cpp")
 add_executable(Swapping-Nodes-in-a-Linked-List "Linked List/Swapping Nodes in a Linked List.cpp")
+add_executable(Symmetric-Tree "Tree/Symmetric Tree.cpp")
