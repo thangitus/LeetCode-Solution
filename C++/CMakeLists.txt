@@ -11,3 +11,4 @@ add_executable(Swapping-Nodes-in-a-Linked-List "Linked List/Swapping Nodes in a 
 add_executable(Symmetric-Tree "Tree/Symmetric Tree.cpp")
 add_executable(Path-sum "Tree/Path Sum.cpp")
 add_executable(Encode-and-Decode-TinyURL "Hash Map/Encode and Decode TinyURL.cpp")
+add_executable(Richest-Customer-Wealth "Array/Richest Customer Wealth.cpp")
