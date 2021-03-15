@@ -10,3 +10,4 @@ add_executable(Check-If-a-String-Contains-All-Binary-Codes-of-Size "Bit Manipula
 add_executable(Swapping-Nodes-in-a-Linked-List "Linked List/Swapping Nodes in a Linked List.cpp")
 add_executable(Symmetric-Tree "Tree/Symmetric Tree.cpp")
 add_executable(Path-sum "Tree/Path Sum.cpp")
+add_executable(Encode-and-Decode-TinyURL "Hash Map/Encode and Decode TinyURL.cpp")
