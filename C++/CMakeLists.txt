@@ -17,3 +17,4 @@ add_executable(Count-Items-Matching-a-Rule "Array/Count Items Matching a Rule.cp
 add_executable(Linked-List-Cycle "Two Pointers/Linked List Cycle.cpp")
 add_executable(Keys-and-Rooms "Depth-first Search/Keys and Rooms.cpp")
 add_executable(Reordered-Power-of-2 "Math/Reordered Power of 2.cpp")
+add_executable(Reverse-Linked-List "Linked List/Reverse Linked List.cpp")
