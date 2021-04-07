@@ -25,3 +25,4 @@ add_executable(Minimum-Window-Substring "Two Pointers/Minimum Window Substring.c
 add_executable(Minimum-Operations-to-Make-Array-Equal "Math/Minimum Operations to Make Array Equal.cpp")
 add_executable(Maximum-Ascending-Subarray-Sum "Two Pointers/Maximum Ascending Subarray Sum.cpp")
 add_executable(Count-Number-of-Nice-Subarrays "Two Pointers/Count Number of Nice Subarrays.cpp")
+add_executable(Minimum-Size-Subarray-Sum "Two Pointers/Minimum Size Subarray Sum.cpp")
