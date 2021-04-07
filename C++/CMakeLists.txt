@@ -23,3 +23,4 @@ add_executable(Russian-Doll-Envelopes "Dynamic Programming/Russian Doll Envelope
 add_executable(Sort-Colors "Two Pointers/Sort Colors.cpp")
 add_executable(Minimum-Window-Substring "Two Pointers/Minimum Window Substring.cpp")
 add_executable(Minimum-Operations-to-Make-Array-Equal "Math/Minimum Operations to Make Array Equal.cpp")
+add_executable(Maximum-Ascending-Subarray-Sum "Two Pointers/Maximum Ascending Subarray Sum.cpp")
