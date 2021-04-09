@@ -30,3 +30,4 @@ add_executable(Subarrays-with-K-Different-Integers "Two Pointers/Subarrays with 
 add_executable(Letter-Combinations-of-a-Phone-Number "Backtracking/Letter Combinations of a Phone Number.cpp")
 add_executable(Max-Consecutive-Ones-III "Two Pointers/Max Consecutive Ones III.cpp")
 add_executable(Fruit-Into-Baskets "Two Pointers/Fruit Into Baskets.cpp")
+add_executable(Verifying-an-Alien-Dictionary "Hash Map/Verifying an Alien Dictionary.cpp")
