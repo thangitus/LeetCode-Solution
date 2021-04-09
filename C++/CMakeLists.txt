@@ -29,3 +29,4 @@ add_executable(Minimum-Size-Subarray-Sum "Two Pointers/Minimum Size Subarray Sum
 add_executable(Subarrays-with-K-Different-Integers "Two Pointers/Subarrays with K Different Integers.cpp")
 add_executable(Letter-Combinations-of-a-Phone-Number "Backtracking/Letter Combinations of a Phone Number.cpp")
 add_executable(Max-Consecutive-Ones-III "Two Pointers/Max Consecutive Ones III.cpp")
+add_executable(Fruit-Into-Baskets "Two Pointers/Fruit Into Baskets.cpp")
