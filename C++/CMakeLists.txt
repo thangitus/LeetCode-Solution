@@ -32,3 +32,4 @@ add_executable(Max-Consecutive-Ones-III "Two Pointers/Max Consecutive Ones III.c
 add_executable(Fruit-Into-Baskets "Two Pointers/Fruit Into Baskets.cpp")
 add_executable(Verifying-an-Alien-Dictionary "Hash Map/Verifying an Alien Dictionary.cpp")
 add_executable(Binary-Subarrays-With-Sum "Two Pointers/Binary Subarrays With Sum.cpp")
+add_executable(Boats-to-Save-People "Two Pointers/Boats to Save People.cpp")
