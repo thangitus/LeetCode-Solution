@@ -34,3 +34,4 @@ add_executable(Verifying-an-Alien-Dictionary "Hash Map/Verifying an Alien Dictio
 add_executable(Binary-Subarrays-With-Sum "Two Pointers/Binary Subarrays With Sum.cpp")
 add_executable(Boats-to-Save-People "Two Pointers/Boats to Save People.cpp")
 add_executable(Subtract-the-Product-and-Sum-of-Digits-of-an-Integer "Math/Subtract the Product and Sum of Digits of an Integer.cpp")
+add_executable(Power-of-Two "Bit Manipulation/Power of Two.cpp")
