@@ -37,3 +37,4 @@ add_executable(Subtract-the-Product-and-Sum-of-Digits-of-an-Integer "Math/Subtra
 add_executable(Power-of-Two "Bit Manipulation/Power of Two.cpp")
 add_executable(Ugly-Number "Math/Ugly Number.cpp")
 add_executable(Deepest-Leaves-Sum "Tree/Deepest Leaves Sum.cpp")
+add_executable(Calculate-Money-in-Leetcode-Bank "Math/Calculate Money in Leetcode Bank.cpp")
