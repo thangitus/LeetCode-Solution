@@ -42,3 +42,4 @@ add_executable(Remove-All-Adjacent-Duplicates-in-String-II "Stack/Remove All Adj
 add_executable(Convert-Sorted-Array-to-Binary-Search-Tree "Tree/Convert Sorted Array to Binary Search Tree.cpp")
 add_executable(N-ary-Tree-Preorder-Traversal "Tree/N-ary Tree Preorder Traversal.cpp")
 add_executable(Linked-List-Cycle- "Linked List/Linked List Cycle.cpp")
+add_executable(Triangle "Dynamic Programming/Triangle.cpp")
