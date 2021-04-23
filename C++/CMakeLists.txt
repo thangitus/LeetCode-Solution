@@ -44,3 +44,4 @@ add_executable(N-ary-Tree-Preorder-Traversal "Tree/N-ary Tree Preorder Traversal
 add_executable(Linked-List-Cycle- "Linked List/Linked List Cycle.cpp")
 add_executable(Triangle "Dynamic Programming/Triangle.cpp")
 add_executable(Brick-Wall "Hash Map/Brick Wall.cpp")
+add_executable(Count-Binary-Substrings "String/Count Binary Substrings.cpp")
