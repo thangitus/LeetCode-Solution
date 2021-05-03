@@ -51,3 +51,4 @@ add_executable(Furthest-Building-You-Can-Reach "Heap/Furthest Building You Can R
 add_executable(Power-of-Three "Math/Power of Three.cpp")
 add_executable(Unique-Paths-II "Dynamic Programming/Unique Paths II.cpp")
 add_executable(Kth-Largest-Element-in-a-Stream "Heap/Kth Largest Element in a Stream.cpp")
+add_executable(Running-Sum-of-1d-Array "Array/Running Sum of 1d Array.cpp")
