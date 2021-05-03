@@ -43,6 +43,7 @@ add_executable(Convert-Sorted-Array-to-Binary-Search-Tree "Tree/Convert Sorted A
 add_executable(N-ary-Tree-Preorder-Traversal "Tree/N-ary Tree Preorder Traversal.cpp")
 add_executable(N-ary-Tree-Postorder-Traversal "Tree/N-ary Tree Postorder Traversal.cpp")
 add_executable(N-ary-Tree-Level-Order-Traversal "Tree/N-ary Tree Level Order Traversal.cpp")
+add_executable(Binary-Tree-Level-Order-Traversal "Tree/Binary Tree Level Order Traversal.cpp")
 add_executable(Linked-List-Cycle- "Linked List/Linked List Cycle.cpp")
 add_executable(Triangle "Dynamic Programming/Triangle.cpp")
 add_executable(Brick-Wall "Hash Map/Brick Wall.cpp")
