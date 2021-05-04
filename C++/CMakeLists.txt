@@ -58,3 +58,4 @@ add_executable(Kth-Largest-Element-in-a-Stream "Heap/Kth Largest Element in a St
 add_executable(Running-Sum-of-1d-Array "Array/Running Sum of 1d Array.cpp")
 add_executable(Split-a-String-in-Balanced-Strings "String/Split a String in Balanced Strings.cpp")
 add_executable(Latest-Time-by-Replacing-Hidden-Digits "String/Latest Time by Replacing Hidden Digits.cpp")
+add_executable(Minimum-Absolute-Difference "Array/Minimum Absolute Difference.cpp")
