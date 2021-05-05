@@ -62,3 +62,4 @@ add_executable(Minimum-Absolute-Difference "Array/Minimum Absolute Difference.cp
 add_executable(Non-decreasing-Array "Array/Non-decreasing Array.cpp")
 add_executable(Jump-Game-II "Greedy/Jump Game II.cpp")
 add_executable(Jump-Game "Greedy/Jump Game.cpp")
+add_executable(Jump-Game-III "Breadth-first Search/Jump Game III.cpp")
