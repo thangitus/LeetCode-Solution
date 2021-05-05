@@ -61,3 +61,4 @@ add_executable(Latest-Time-by-Replacing-Hidden-Digits "String/Latest Time by Rep
 add_executable(Minimum-Absolute-Difference "Array/Minimum Absolute Difference.cpp")
 add_executable(Non-decreasing-Array "Array/Non-decreasing Array.cpp")
 add_executable(Jump-Game-II "Greedy/Jump Game II.cpp")
+add_executable(Jump-Game "Greedy/Jump Game.cpp")
