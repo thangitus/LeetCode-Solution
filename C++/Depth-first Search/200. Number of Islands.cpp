@@ -2,10 +2,6 @@
 
 using namespace std;
 
-/**
- * https://leetcode.com/problems/number-of-islands/
- * */
-
 class Solution {
 public:
     int dx[4] = {-1, 0, 0, 1};
