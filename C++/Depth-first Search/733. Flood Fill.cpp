@@ -2,10 +2,6 @@
 
 using namespace std;
 
-/**
- * https://leetcode.com/problems/flood-fill/
- */
-
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>> &image, int row, int col, int newColor) {
