@@ -9,7 +9,8 @@ using namespace std;
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        int pos[255]{-1}, result = 0, left = 0;
+        vector<int> pos(255, -1);
+        int result = 0, left = 0;
         for (int right = 0; right < s.length(); right++) {
             char chr = s[right];
             if (pos[chr] != -1 && pos[chr] >= left)
