@@ -9,19 +9,16 @@ using namespace std;
 class Solution {
 private:
     long memo[50][50][51];
-    int MOD = 1000000000 + 7;
+    int MOD = 1e9 + 7;
     int dirs[4][2] = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
 
 public:
     int findPaths(int m, int n, int maxMove, int startRow, int startColumn) {
-        for (int i = 0; i < m; i++)
-            for (int j = 0; j < n; j++)
-                for (int k = 0; k <= maxMove; k++)
-                    memo[i][j][k] = -1;
-        return dfs(m, n, maxMove, startRow, startColumn);
+        memset(memo,-1, sizeof(memo));
+        return dp(m, n, maxMove, startRow, startColumn);
     }
 
-    long dfs(int m, int n, int move, int row, int col) {
+    long dp(int m, int n, int move, int row, int col) {
         if (row < 0 || row >= m || col < 0 || col >= n)
             return 1;
         if (move == 0) return 0;
@@ -31,7 +28,7 @@ public:
         for (auto dir : dirs) {
             int x = dir[0] + row;
             int y = dir[1] + col;
-            memo[row][col][move] += dfs(m, n, move - 1, x, y) % MOD;
+            memo[row][col][move] += dp(m, n, move - 1, x, y) % MOD;
         }
         return memo[row][col][move] % MOD;
     }
