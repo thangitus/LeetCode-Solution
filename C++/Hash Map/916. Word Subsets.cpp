@@ -15,9 +15,7 @@ public:
         for (string &word: words1) {
             auto tmp = counter(word);
             int i = 0;
-            for (; i < 26; i++)
-                if (tmp[i] < count[i])
-                    break;
+            for (; i < 26 && tmp[i] >= count[i]; i++);
             if (i == 26) result.push_back(word);
         }
         return result;
