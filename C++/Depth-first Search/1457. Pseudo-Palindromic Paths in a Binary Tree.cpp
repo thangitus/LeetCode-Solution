@@ -5,24 +5,18 @@ using namespace std;
 
 class Solution {
 public:
-    int pseudoPalindromicPaths(TreeNode *root) {
-        vector<int> count(10);
-        return dfs(root, count);
-    }
+    int count[10];
 
-    int dfs(TreeNode *node, vector<int> &count) {
+    int pseudoPalindromicPaths(TreeNode *root) {
         int result = 0;
-        if (!node) return result;
-        count[node->val]++;
-        if (!node->left && !node->right) {
+        if (!root) return result;
+        count[root->val]++;
+        if (!root->left && !root->right) {
             int cnt = 0;
-            for (int i: count)
-                cnt += i % 2;
+            for (int i: count) cnt += i % 2;
             result = cnt <= 1;
-        } else
-            result = dfs(node->left, count)
-                     + dfs(node->right, count);
-        count[node->val]--;
+        } else result = pseudoPalindromicPaths(root->left) + pseudoPalindromicPaths(root->right);
+        count[root->val]--;
         return result;
     }
 };
